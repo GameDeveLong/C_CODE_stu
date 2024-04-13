@@ -426,8 +426,6 @@ bool BinaryTreeComplete(BTNode* root)
 			return false; 
 		}
 	}
-
 	QueueDestroy(&q);
 	return true;
-
 }
