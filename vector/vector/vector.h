@@ -74,6 +74,14 @@ namespace Myvector
 			{
 				return _finish;
 			}
+			const_iterator begin() const
+			{
+				return _start;
+			}
+			const_iterator end()const
+			{
+				return _finish;
+			}
 			const_iterator cbegin() const
 			{
 				return _start;
